@@ -1,24 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
+import CadrInfo from './components/CardInfo';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    //<CircularProgres porcentaje={75} size={100} color="rgb(50, 255, 0)"></CircularProgres>
+    <CadrInfo titulo="Mas de 10" numero="104" width={192} color="rgb(50, 255, 0)"/>
   );
 }
 

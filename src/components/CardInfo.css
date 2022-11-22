@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+.main{
+    /*border: solid 6px black;*/
+    display:inline-block;
+    background-color: white;
+    
+}
+.container{
+    display:inline-flex;
+    /*border: solid 6px yellow;*/
+    align-items: center;
+}
+.numero{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 600;
+    /*border: solid 3px blue;*/
+    margin: 0;
+}
+.titulo{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    font-weight: 100;
+    /*border: solid 1px red;*/
+}
